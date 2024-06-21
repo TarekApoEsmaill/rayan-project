@@ -1,0 +1,158 @@
+/* Start Rulse */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+/* End Rulse */
+/* Start Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #222;
+    height: 70px;
+}
+header .logo {
+    width: 50px;
+}
+header ul {
+    display: flex;
+    gap: 30px;
+}
+header ul li a {
+    color: crimson;
+    transition: 0.3s;
+}
+header ul li a:hover {
+    color: white;
+}
+header ul li a.active {
+    text-decoration: underline;
+}
+/* End Header */
+/* Start Student Name */
+.students {
+    margin: 50px auto;
+    width: fit-content;
+}
+.students h2 {
+    margin-bottom: 30px;
+    background-color: crimson;
+    padding: 20px;
+    border-radius: 50px;
+    color: white;
+}
+/* End Student Name */
+/* Start Link */
+.link {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;   
+}
+/* End Link */
+/* Start About */
+.about {
+    width: fit-content;
+    margin: 50px auto;
+}
+.about p {
+    margin-bottom: 20px;
+}
+/* End About */
+/* Start Table */
+table {
+    margin: 100px auto 20px;
+}
+table td, table th {
+    padding: 10px;
+}
+table th {
+    background-color: crimson;
+    color: white;
+}
+table td {
+    background-color: #eee;
+}
+table tr.info {
+    display: none;
+}
+table tr.info.show {
+    display:table-row;
+}
+table tr.info td > div {
+    float: right;
+}
+table tr.info td > div img {
+    width: 200px;
+    margin-right: 20px;
+}
+/* End Table */
+/* Start Button */
+#btn {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px 25px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+#btn:hover {
+    background-color: rgb(200, 4, 43);
+}
+/* End Button */
+/* Start Form */
+.form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #22222263;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.form.show {
+    display: flex;
+}
+.form form {
+    position: relative;
+    padding: 20px;
+    width: 300px;
+    background-color: crimson;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.form form input {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.form form #send {
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #222;
+    padding: 15px 25px;
+    color: white;
+    cursor: pointer;
+}
+/* End Form */
+/* Start counter */
+.counter {
+    width: fit-content;
+    margin: 20px auto;
+}
+/* End counter */
